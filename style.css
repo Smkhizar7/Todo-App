@@ -1,0 +1,85 @@
+div#input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input#inp {
+    width: 200px;
+    height: 20px;
+    border: 3px outset lightgrey;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+button#addBtn {
+    width: 80px;
+    height: 35px;
+    border: 3px outset greenyellow;
+    border-radius: 10px;
+    background: greenyellow;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 4px;
+    margin: 0 5px;
+}
+button#delBtn {
+    width: 100px;
+    height: 35px;
+    border: 3px outset red;
+    border-radius: 10px;
+    padding: 4px;
+    background: red;
+    margin: 0 5px;
+    font-size: 15px;
+    font-weight: 900;
+}button.editBtn {
+    margin: 0px 5px;
+    padding: 4px;
+    border: 3px outset greenyellow;
+    border-radius: 10px;
+    width: 60px;
+    background: greenyellow;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+button.delBtn {
+    margin: 0px 5px;
+    padding: 4px;
+    width: 60px;
+    height: 30px;
+    border: 3px outset red;
+    border-radius: 10px;
+    background: red;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+li {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+div#content {
+    width: 500px;
+}
